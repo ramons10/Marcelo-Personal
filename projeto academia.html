@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="img/corinthianss.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marcelo Personal</title>
+    <style>
+        h1 {
+            color: rgb(0, 0, 0);
+            font-family: ;
+        }
+
+        .P1 {
+            color: #ffffff;
+        }
+
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 1500px;
+        }
+
+        .parallax {
+            display: flex;
+            height: 600px;
+            background-image: url("MARCELO-LOGO.pNg");
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+
+            /* Flexbox para centralizar o conteúdo */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            width: 350px;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            position: relative;
+        }
+
+        .card img {
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        .tag-oferta {
+            position: absolute;
+            background-color: red;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 5px;
+        }
+
+        .produtos {
+            display: flex;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 200px;
+        }
+
+        .introducao {
+            font-size: 20px;
+        }
+
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .item {
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .item:hover {
+            transform: scale(1.03);
+        }
+
+        .item img {
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+
+        }
+
+        a {
+            background-color: blue;
+            border-radius: 25px;
+            color: #ffffff;
+            background-color: #8f1919;
+            padding: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parallax">
+
+        <h1>História:</h1>
+
+        <p class="P1">Marcelo Benitez, 35 anos, é um personal trainer renomado em Curitiba, atuando há
+            mais de 10 anos no mercado fitness. Todas as manhãs, das 6h às 14h, ele <br> trabalha em
+            uma academia SmartFit atendendo alunos presenciais. <br> Durante as tardes e noites, das
+            15h às 20h, Marcelo oferece consultorias premium personalizadas, onde treina
+            diretamente com cada aluno, acompanhando de perto sua evolução física.
+
+            <br><br>Com o aumento da demanda e a limitação de horários disponíveis, Marcelo percebeu
+            que precisava expandir seu alcance e criar novas formas de atender <br> mais pessoas sem
+            comprometer sua agenda. Pensando nisso, ele decidiu vender seus serviços de
+            consultoria online e presencial através de uma Landing Page profissional.
+        </p>
+    </div>
+
+
+    <div class="produtos">
+        <div class="card">
+            <div class="tag-oferta">Oferta!</div>
+            <img src="" width="" />
+            <h2>Consultoria Online</h2>
+            <h2>Valor: R$ 100/mês</h2>
+            <p>
+                Inclui treinos enviados pelo WhatsApp, dicas personalizadas, ajustes semanais e
+                acompanhamento direto comigo.
+            </p>
+            <a href="wa.me">Enviar mensagem no WhatsApp</a>
+
+        </div>
+
+        <div class="card">
+            <div class="tag-oferta">Oferta!</div>
+            <img src="" width="" />
+            <h2>Consultoria Presencial</h2>
+            <h2>Valor: R$ 50/aula</h2>
+            <p>
+                Conquiste seus objetivos com meu acompanhamento exclusivo! O pacote inclui treinamento presencial
+                personalizado, um plano alimentar estratégico e suporte contínuo com dicas valiosas para maximizar seus
+                resultados.</p>
+
+            <a href="wa.me">Enviar mensagem no WhatsApp</a>
+
+        </div>
+
+        <div class="card">
+            <div class="tag-oferta">Oferta!</div>
+            <img src="" width="" />
+            <h2>Consultoria Híbrida</h2>
+            <h2>Valor: R$ 250/mês</h2>
+            <p>
+                Inclui 4 treinos presenciais (1 por semana), plano alimentar completo, suporte contínuo via WhatsApp e
+                ajustes semanais.
+            </p>
+            <a href="wa.me">Enviar mensagem no WhatsApp</a>
+
+
+        </div>
+    </div>
+
+    <h2 style="text-align: center">Transições</h2>
+    <div class="galeria">
+        <div class="item">
+            <img src="evolução 1.jfif" />
+        </div>
+        <div class="item">
+            <img src="evolução 2.jfif" />
+        </div>
+        <div class="item">
+            <img src="Evolução 3.webp" />
+        </div>
+        <div class="item">
+            <img src="evolução 4.png" />
+        </div>
+    </div>
+    <h2 style="text-align: center">Ouça um pouco sobre nossos alunos</h2>
+    <audio src="depoimento.wav" controls></audio>
+    <br>
+    <br>
+    <BR>
+
+    <h2 style="text-align: center">Sobre Nós</h2>
+    <p>
+        A Marcelo Benitez Personal Trainer é uma empresa consolidada no mercado fitness de Curitiba, com mais de 10 anos de atuação e reconhecimento no setor. Liderada pelo personal trainer Marcelo Benitez, 35 anos, a empresa se destaca por oferecer serviços de consultoria premium e um acompanhamento individualizado e de alta performance.
+        Nossa operação se divide em atendimento presencial em parceria com a academia SmartFit e a oferta de consultorias online e presenciais personalizadas, expandindo nosso alcance sem comprometer a qualidade e a proximidade com o cliente. <br>
+        Missão: Acompanhar de perto a evolução física dos nossos alunos, oferecendo soluções de treino adaptadas e suporte contínuo para alcançar resultados sustentáveis. <br>
+        Valores: Comprometimento, excelência no serviço e personalização do atendimento.
+    </p>
+
+
+    <!-- Plugin VLibras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+</body>
+
+</html>
